@@ -29,7 +29,13 @@ docker run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin 
 
 Pode-se utilizar qualquer ferramenta client para acessar o MongoDB para criar um database e uma collection. Para o desafio foi utilizado o [MongoDB Compass](https://www.mongodb.com/products/compass)
 
-Então, após instalar a ferramenta client será necessário criar um database com o nome "test" e uma collection com o nome "portaismotos"
+Então, após instalar a ferramenta client será necessário configurar a string de conexão a seguir:
+
+```
+mongodb://admin:mongoadmin@localhost:27017
+```
+
+Após conectar no MongoDB será necessário criar um database com o nome "test" e uma collection com o nome "portaismotos"
 
 2. Clonar repositorio do projeto na máquina local
 

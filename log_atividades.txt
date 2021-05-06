@@ -1,13 +1,15 @@
 Log das atividades
 
 1- Escolher o tema além de possíveis portais para extrair informações
+De preferência escolher portais que possuem paginação
 
 2- Estudar sobre o framework scrapy a partir de vídeos, tutoriais, blogs, etc
 
 3- Entender a sintaxe do response.css e como é a hierarquia das tags html
 
-4- Como extrair informações da página inicial
+4- Como extrair informações da página inicial?
 
+Dados a serem extraídos:
 - título da notícia
 - autor da postagem
 - data da postagem 
@@ -22,5 +24,6 @@ Log das atividades
 6- Tratar os dados
 
 7- Como persistir os dados no MongoDB
+A escolha deste SGBD é devido aos dados coletados serem não estruturados e o formato mais apropriado para esse tipo de dado é o formato JSON.
 
 
