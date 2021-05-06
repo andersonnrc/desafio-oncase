@@ -17,8 +17,10 @@ Log das atividades
 - tags
 - inclusão de um campo "site" para identificar a qual portal o documento do MongoDB se refere
 
-4- Como avançar para as próximas páginas
+5- Como avançar para as próximas páginas
 
-5- Como persistir os dados no MongoDB
+6- Tratar os dados
+
+7- Como persistir os dados no MongoDB
 
 
