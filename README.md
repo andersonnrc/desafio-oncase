@@ -96,7 +96,7 @@ Para o cenário do desafio, o consumo de recursos computacionais é baixo. Entre
 
 ## Funcionalidades pendentes e bugs a serem resolvidos
 
-Para a carga incremental a mesma não foi implementada até o momento. Então a solução de contorno utilizada é que antes da execução através do ./start todos os documentos são excluídos, sendo assim necessário fazer o processo de web scraping em todo o portal novamente.
+Para a carga incremental a mesma não foi implementada até o momento. Então a solução de contorno utilizada na execução foi incluir uma instrução no arquivo start.sh que exclui todos os documentos armazenados no MongoDB, sendo assim necessário fazer o processo de web scraping em todos os portais novamente.
 
 O processo de web scraping no Motoo foi aparentemente mais fácil de percorrer todas as páginas e captar dados de todas as notícias, entretanto os outros dois estão apresentando problemas no código. O web crawler do MotoTour apesar de percorrer todas as páginas, não consegue captar todas as notícias e o portal TudodeMotos por apresentar várias seções de notícia no seu portal, tive que implementar o web crawler para rastrer as notícias a partir da segunda página.
 
