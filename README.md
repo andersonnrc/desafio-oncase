@@ -61,7 +61,7 @@ Ainda no terminal, basta digitar o comando a seguir:
 
 ## Dados obtidos
 
-Nos três portais não seção relacionada a comentários de usuários ou likes, então não foi possível obter dados sobre engajamento.
+Nos três portais na seção relacionada a comentários de usuários ou likes não foi possível obter dados sobre engajamento.
 
 A única exceção sobre algum dado possível de ser coletado sobre engajamento é o portal Tudo de Motos, que possui uma área no site sobre postagens no Twitter, então com um algortimo mais elaborado poderia ser analisado a quantidade de likes, retweets e comentários sobre as postagens.
 
